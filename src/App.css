@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+header h1 {
+  font-size: calc(10px + 8vmin);
+  margin-top: 0;
+}
+
+header h2 {
+  font-size: calc(10px + 4vmin);
+  margin-bottom: 0;
+}
+
+.parallax {
+  color: #ffffff;
+  /* Set a specific height */
+  min-height: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* Turn off parallax scrolling for all tablets and phones */
+ @media only screen and (max-device-width: 1080px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} 
+
+.bgportrait {
+  background-image: url("img_portrait.jpg");
+  min-height: 100vh;
+}
+
+.bg2 {
+  background-image: url("img_london.jpg");
+}
+
+.bg1 {
+  background-image: url("img_washington.jpg");
+}
+
+.bg0 {
+  /*Shh... this isn't from Cumberland! Don't tell anyone until I have the chance to go back and grab another picture. ;)*/
+  background-image: url("img_great_falls.jpg");
+}
+
+.bgcontact {
+  background-image: url("img_portrait.jpg");
+}
+
+.background-rotated-panel {
+  background-color: #66023c;
+  min-height: 20vh;
+  width: 120%;
+  margin-top: -10%;
+  margin-left: -10%;
+  transform: rotate(-10deg);
+}
+
+.foreground-rotated-panel {
+  background-color: #440027;
+  min-height: 20vh;
+  width: 110%;
+  margin-top: -5%;
+  margin-left: -5%;
+  transform: rotate(-5deg);
+}
+
+.content {
+  background-color: #440027;
   font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.content-prompt-scroll {
+  font-size: calc(10px + 8vmin);
+  margin-top: -35%;
+  padding-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-secondary {
+  margin-top: -5%;
+}
+
+.content-title {
+  margin-top: 60px;
+}
+
+.content-summary {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.content-location-section {
+  margin-top: 75px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  justify-content: left;
+}
+
+.content-location {
+  font-size: calc(10px + 6vmin);
+  text-align: center;
+  justify-content: center;
+}
+
+.content-location-section h4 {
+  margin-bottom: 2px;
+}
+
+.content-location-section h6 {
+  margin-top: 0;
+}
+
+.content-location-section p, ul {
+  font-size: calc(10px + 1vmin);
+}
+
+.content-link {
+  color: #ffd700;
+}
+
+.content-hr {
+  color: #ffd700;
+  width: 120%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: -10%;
+}
+
+.content-outro {
+  background-color: #e5e4e2;
+  color:#440027;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-outro-blurb {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.content-outro-subtitle {
+  font-size: calc(10px + 2vmin);
+}
+
+.content-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content-social-container {
+  height: 128px;
+  width: 128px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.content-social-image {
+  height: 128px;
+  width: 128px;
+  transition: transform .25s; /* Animation */
+}
+
+.content-social-image:hover {
+  transform: scale(1.2);
+}
+
+.content-social-linkedin {
+  /* LinkedIn insisting on using the registered mark is kind of insane and breaks the flow of the page.*/
+  height: 108px;
+  width: 127px;
+  /* 🙄 <em>sigh</em> */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform .25s; /* Animation */
+}
+
+.content-social-linkedin:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.rights {
+  text-align: center;
 }
