@@ -118,7 +118,7 @@ function App() {
           </p>
           <ul>
             <li>I corrected a long-standing database issue causing massive query slowdowns, improving web page response time by over 99% for our largest client (~7 minutes down to ~3 seconds). This resolved the biggest hang-up in the signing of a multi-million dollar contract from this client.</li>
-            <li>The bulk of my time was spent on a new exception handler. It was designed as a counterpart to a decades-old process whose algorithms needed a facelift, and would consistently output hundreds of exceptions in a day. These exceptions resulted in lost data points, a definite problem for client trust in our data and the overall health of our system. In four months' work of what development time I could find, I managed to automatically resolve 80% of the issues with the exceptions with a heuristics algorithm.</li>
+            <li>The bulk of my time was spent on a new exception handler. It was designed as a counterpart to a decades-old process whose algorithms needed a facelift, and would consistently output hundreds of exceptions in a day. These exceptions resulted in lost data points, a definite problem for client trust in our data and the overall health of our system. In four months' work of what development time I could find, I managed to automatically resolve 95% of the issues with the exceptions with a heuristics algorithm.</li>
           </ul>
           <p>
             In my time at BSI, I worked well above and beyond my initial station, quickly being promoted to a higher role. I am proud of the work I performed there, but I felt as though my potential went untapped.
