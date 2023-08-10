@@ -17,9 +17,9 @@ header h2 {
 }
 
 .parallax {
-  color: #ffffff;
+  color: white;
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ header h2 {
   .parallax {
     background-attachment: scroll;
   }
-} 
+}
 
 .bgportrait {
   background-image: url("img_portrait.jpg");
@@ -62,7 +62,7 @@ header h2 {
 }
 
 .background-rotated-panel {
-  background-color: #66023c;
+  background-color: var(--byz);
   min-height: 20vh;
   width: 120%;
   margin-top: -10%;
@@ -71,7 +71,7 @@ header h2 {
 }
 
 .foreground-rotated-panel {
-  background-color: #440027;
+  background-color: var(--byz-shade);
   min-height: 20vh;
   width: 110%;
   margin-top: -5%;
@@ -80,7 +80,7 @@ header h2 {
 }
 
 .content {
-  background-color: #440027;
+  background-color: var(--byz-shade);
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
   margin-bottom: 2%;
@@ -141,11 +141,11 @@ header h2 {
 }
 
 .content-link {
-  color: #ffd700;
+  color: var(--gold);
 }
 
 .content-hr {
-  color: #ffd700;
+  color: var(--gold);
   width: 120%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
@@ -153,8 +153,8 @@ header h2 {
 }
 
 .content-outro {
-  background-color: #e5e4e2;
-  color:#440027;
+  background-color: var(--platinum);
+  color: var(--byz-shade);
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
   margin-bottom: 2%;
