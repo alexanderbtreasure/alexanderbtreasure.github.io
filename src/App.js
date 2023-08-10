@@ -7,7 +7,7 @@ function App() {
         <h2><em>Hey, I'm</em></h2><br></br>
         <h1><strong>Alex Treasure</strong></h1>
       </header>
-      <div className="content">
+      <div className="content content-journey">
         <h1 className="content-prompt-scroll">
           ⇓
         </h1>
