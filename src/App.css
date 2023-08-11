@@ -61,28 +61,50 @@ header h2 {
   background-image: url("img_portrait.jpg");
 }
 
+/* -6 deg and -3deg transforms work for 1920w */
+@media (max-height: 360px) {
+  .background-rotated-panel {
+    visibility: hidden;
+  }
+  .foreground-rotated-panel {
+    visibility: hidden;
+  }
+}
+@media (min-height: 361px) {
+  .background-rotated-panel {
+    visibility: visible;
+  }
+  .foreground-rotated-panel {
+    visibility: visible;
+  }
+}
+
+/* if returning to this, z-index does nothing currently */
 .background-rotated-panel {
   background-color: var(--byz);
-  min-height: 20vh;
+  min-height: 65px;
+  height: 20vh;
   width: 120%;
   margin-top: -10%;
   margin-left: -10%;
-  transform: rotate(-10deg);
+  transform: rotate(-6deg);
 }
 
 .foreground-rotated-panel {
   background-color: var(--byz-shade);
-  min-height: 20vh;
+  min-height: 65px;
+  height: 20vh;
   width: 110%;
   margin-top: -5%;
   margin-left: -5%;
-  transform: rotate(-5deg);
+  transform: rotate(-3deg);
 }
 
 .content {
   background-color: var(--byz-shade);
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
+  margin-top: 2%;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
@@ -145,7 +167,7 @@ header h2 {
 }
 
 .content-hr {
-  color: var(--gold);
+  border: 1px solid var(--gold);
   width: 120%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
@@ -157,6 +179,8 @@ header h2 {
   color: var(--byz-shade);
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
+  width: 100%;
+  margin-top: 2%;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
@@ -186,10 +210,7 @@ header h2 {
 .content-social-container {
   height: 128px;
   width: 128px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 0px 15px 0px 15px;
 }
 
 .content-social-image {
@@ -219,4 +240,5 @@ header h2 {
 
 .rights {
   text-align: center;
+  padding-bottom: 2%;
 }
