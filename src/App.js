@@ -38,7 +38,7 @@ function App() {
               I work part-time under Dr. Katerina Tertytchnaya on the UKRI ESRC-funded project <a href="https://www.nonviolent-repression.co.uk/" className="content-link"><strong>Iron Fists in Velvet Gloves: Nonviolent Repression in Electoral Autocracies</strong></a>.
             </p>
             <p>
-              As a person who had largely worked in the private sector to-date, finding a research-oriented position was quite difficult, even though many skills from software engineering translate well to research. Knowing that I would want to pursue a PhD in the future, I recognized that I required far more research experience. This position has been a tremendous opportunity to merge my expertise in data gathering with my newly acquired skills in quantitative policy research. My work to-date has been in critical data gathering via Python scripts accessing an API.
+              As a person who had largely worked in the private sector to-date, finding a research-oriented position was quite difficult, even though many skills from software engineering translate well to research. Knowing that I would want to pursue a PhD in the future, I recognized that I required far more research experience. This position has been a tremendous opportunity to merge my data expertise with my newly acquired skills in quantitative policy research. My work to-date has been in critical data gathering via Python scripts accessing an API.
             </p>
             <hr className="content-hr"></hr>
             <h4>
