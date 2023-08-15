@@ -41,7 +41,7 @@ header h2 {
 }
 
 .bgportrait {
-  background-image: url("img_portrait.jpg");
+  background-image: url("img_intro.jpg");
 }
 
 .bg2 {
@@ -58,7 +58,7 @@ header h2 {
 }
 
 .bgcontact {
-  background-image: url("img_portrait.jpg");
+  background-image: url("img_outro.jpg");
 }
 
 /* -6 deg and -3deg transforms work for 1920w */
