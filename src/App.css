@@ -38,10 +38,14 @@ header h2 {
   .parallax {
     background-attachment: scroll;
   }
-}
+} 
 
 .bgportrait {
   background-image: url("img_intro.jpg");
+}
+
+.bg3 {
+  background-image: url("img_toronto.jpg");
 }
 
 .bg2 {
@@ -54,7 +58,7 @@ header h2 {
 
 .bg0 {
   /*Shh... this isn't from Cumberland! Don't tell anyone until I have the chance to go back and grab another picture. ;)*/
-  background-image: url("img_great_falls.jpg");
+  background-image: url("img_cumberland.jpg");
 }
 
 .bgcontact {
@@ -136,18 +140,18 @@ header h2 {
   margin-right: 15%;
 }
 
+.content-location {
+  font-size: calc(10px + 6vmin);
+  text-align: center;
+  justify-content: center;
+}
+
 .content-location-section {
   margin-top: 75px;
   margin-left: 20%;
   margin-right: 20%;
   display: grid;
   justify-content: left;
-}
-
-.content-location {
-  font-size: calc(10px + 6vmin);
-  text-align: center;
-  justify-content: center;
 }
 
 .content-location-section h4 {
@@ -160,6 +164,14 @@ header h2 {
 
 .content-location-section p, ul {
   font-size: calc(10px + 1vmin);
+}
+
+/* .content-position-title {
+
+} */
+
+.content-position-subtitle {
+  font-weight: normal;
 }
 
 .content-link {
