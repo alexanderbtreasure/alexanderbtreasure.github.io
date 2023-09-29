@@ -31,7 +31,7 @@ function App() {
             University of Toronto (UoT)
           </h4>
           <h6 className="content-position-title">
-            Master in Global Affairs (MGA), <em>2023–2024</em><br></br>
+            Master in Global Affairs (MGA), <em>2023–Present</em><br></br>
             <span className="content-position-subtitle"><em>Emphases: The Digital World, Global Policy</em></span><br></br>
             <span className="content-position-subtitle"><em>Collaborative Master's Specialization in Contemporary East and Southeast Asian Studies</em></span>
           </h6>
