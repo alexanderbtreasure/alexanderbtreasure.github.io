@@ -184,7 +184,7 @@ function App() {
             <li>Proofreading the students' work to help them meet state-mandated writing guidelines</li>
           </ul>
           <p>
-            Secondly, I worked as a software engineer with a grant team formed by the University of Maryland of Frostburg students. Our role was to implement a vacation planner and itinerary builder for a vacation property rental company. My role in that team was dedicated to learning the ins-and-outs of administrating a testing server, as well as cleaning and maintaining development data so that work could continue.
+            Secondly, I worked as a software engineer with a grant team composed of Frostburg students formed by the University of Maryland as part of the Maryland Industrial Partnerships (MIPS) program. Our role was to implement a vacation planner and itinerary builder for a vacation property rental company called Silicon Travel. My role in that team was dedicated to learning the ins-and-outs of administrating a testing server, as well as cleaning and maintaining development data so that work could continue.
           </p>
           <p>
             I was involved in several extracurricular programs, including being part of the local chapters of both Upsilon Pi Epsilon and Kappa Mu Epsilon, honors societies in computer science and mathematics, respectively. I was additionally recruited by the faculty lead of the Cyber Security Club to assist in activity planning due to my familiarity with related topics.
