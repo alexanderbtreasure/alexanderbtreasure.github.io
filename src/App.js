@@ -194,7 +194,7 @@ function App() {
             Allegany College of Maryland (ACM)
           </h4>
           <h6>
-            Associate of Applied Science in Computer Science — Programming (AAS), <em>2010–2013</em>
+            Associate of Applied Science in Computer Science — Programming (AAS), <em>2010–2013</em><br></br>
             <span className="content-position-subtitle"><em>Summa Cum Laude (4.0/4.0)</em></span>
           </h6>
           <p>
