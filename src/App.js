@@ -36,7 +36,7 @@ function App() {
             <span className="content-position-subtitle"><em>Collaborative Master's Specialization in Contemporary East and Southeast Asian Studies</em></span>
           </h6>
           <p>
-            My vision to pursue a career shift into tech policy continued at the University of Toronto. While I have been enjoying my international learning experience, I recognized the issues present in limiting my scope to Western schools of thought. I gratefully have had the opportunity to join the Asian Institue as a student in the Collaborative Master's Specialization program, to hopefully give an Eastern perspective to my developing tech policy skills. Though my year is just starting, I am thoroughly appreciating my time here at the Munk School.
+            My vision to pursue a career shift into tech policy continued at the University of Toronto. While I have been enjoying my international learning experience, I recognized the issues present in limiting my scope to Western schools of thought. I gratefully have had the opportunity to join the Asian Institue as a student in the Collaborative Master's Specialization program, to hopefully give an non-Western perspective to my developing tech policy skills. Though my year is just starting, I am thoroughly appreciating my time here at the Munk School.
           </p>
         </div>
       </div>
@@ -53,13 +53,13 @@ function App() {
             University College London (UCL)
           </h4>
           <h6 className="content-position-title">
-            Research Assistant (Contract/Remote), <em>2023–Present</em>
+            Research Assistant (Contract/Remote), <em>2023</em>
           </h6>
           <p>
-            I work part-time under Dr. Katerina Tertytchnaya on the UKRI ESRC-funded project <a href="https://www.nonviolent-repression.co.uk/" className="content-link"><strong>Iron Fists in Velvet Gloves: Nonviolent Repression in Electoral Autocracies</strong></a>.
+            I worked part-time under Dr. Katerina Tertytchnaya on the UKRI ESRC-funded project <a href="https://www.nonviolent-repression.co.uk/" className="content-link"><strong>Iron Fists in Velvet Gloves: Nonviolent Repression in Electoral Autocracies</strong></a>.
           </p>
           <p>
-            As a person who had largely worked in the private sector to-date, finding a research-oriented position was quite difficult, even though many skills from software engineering translate well to research. Knowing that I would want to pursue a PhD in the future, I recognized that I required far more research experience. This position has been a tremendous opportunity to merge my expertise in data gathering with my newly acquired skills in quantitative policy research. My work to-date has been in critical data gathering via Python scripts accessing an API.
+            As a person who had largely worked in the private sector to-date, finding a research-oriented position was quite difficult, even though many skills from software engineering translate well to research. Knowing that I would want to pursue a PhD in the future, I recognized that I required far more research experience. This position has been a tremendous opportunity to merge my expertise in data gathering with my newly acquired skills in quantitative policy research. My work largely consisted of critical data gathering via Python scripts, both in accessing APIs and in performing detailed web scraping.
           </p>
           <hr className="content-hr"></hr>
           <h4>
