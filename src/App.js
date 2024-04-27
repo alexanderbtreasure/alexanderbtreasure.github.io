@@ -1,5 +1,6 @@
 import './App.css';
 
+//todo: header tag should be used for navigation semantically
 function App() {
   return (
     <div className="App">
@@ -8,9 +9,7 @@ function App() {
         <h1><strong>Alex Treasure</strong></h1>
       </header>
       <div className="content">
-        <h1 className="content-prompt-scroll">
-          ⇓
-        </h1>
+        <h1 className="content-prompt-scroll">⇓</h1>
         <h2 className="content-title">
           My journey
         </h2>
@@ -27,16 +26,33 @@ function App() {
       <div className="foreground-rotated-panel"></div>
       <div className="content content-secondary">
         <div className="content-location-section">
+          <h4>Asia Pacific Foundation of Canada</h4>
+            <h6 className="content-position-title">
+              Research Scholar, Northeast Asia/AI (Full-time Grant/Remote), <em>2024–Present</em>
+            </h6>
+            <p>
+              Following my final term with the Munk School, I accepted an offer with APFC to conduct research on Northeast Asia, particularly in evaluating AI policy in South Korea and Japan. Excited to get started!
+            </p>
+          <hr className="content-hr"></hr>
           <h4>
             University of Toronto (UoT)
           </h4>
           <h6 className="content-position-title">
-            Master in Global Affairs (MGA), <em>2023–Present</em><br></br>
+            Master's in Global Affairs (MGA), <em>2023–2024</em><br></br>
             <span className="content-position-subtitle"><em>Emphases: The Digital World, Global Policy</em></span><br></br>
             <span className="content-position-subtitle"><em>Collaborative Master's Specialization in Contemporary East and Southeast Asian Studies</em></span>
           </h6>
           <p>
-            My vision to pursue a career shift into tech policy continued at the University of Toronto. While I have been enjoying my international learning experience, I recognized the issues present in limiting my scope to Western schools of thought. I gratefully have had the opportunity to join the Asian Institue as a student in the Collaborative Master's Specialization program, to hopefully give an non-Western perspective to my developing tech policy skills. Though my year is just starting, I am thoroughly appreciating my time here at the Munk School.
+            My vision to pursue a career shift into tech policy continued at the University of Toronto. There, I had many opportunities to work on interesting and varied projects. Notably, I worked with a team operating under the umbrella of the Munk School in collaboration with Shopify, on a paper titled <em>Promoting AI Adoption: How the Government of Canada can Help Small and Medium Businesses Bridge the Technology Gap</em>. I also am currently continuing on my major research paper under the advisement of Dr. Daniel Munro titled <em>Online Gaming Addiction Policy Review in South Korea: A Retrospective of the Effects of Article 26 of the Youth Protection Act</em>, which I will be continuing to work on over the summer thanks to a research grant given by the University of Toronto, the Dr. David Chu Scholarship in Asia Pacific Studies.
+          </p>
+          <p>
+            Over the course of my program, I pursued "The Digital World" and the "Global Policy" emphases. In the process of selecting these, I had already looked at some of the courses that I wanted to take. Primarily, learning in-depth about the work of the Citizen Lab was a focus for me, as well as understanding more about the interconnectedness of policies and politics at the global level. 
+          </p>
+          <p>
+            My Collaborative Master's Specialization may have been the most useful and interesting part of my course. It certainly surprised me the most; I ended up taking courses in everything from area studies, to international relations, to anthropology. My original plan of understanding global affairs from both a Western and a Eastern perspective was a bit too ambitious, but this additional program thoroughly rounded out my experience with Toronto.
+          </p>
+          <p>
+            As I was taking six classes in both my terms at the university, I did not have a ton of chances to get involved in extracurriculars. However, I was able to get involved in a few ways. I later had the chance to serve as one of the Rapporteurs at the Next Generation China Scholars Conference, a conference organized by the Munk School bringing in China scholars from several universities to discuss the current climate of Chinese-North American relations and higher education concerning China. I volunteered to help out with The Future of Money 2024, also organized by the Munk School. Between both the morning closed-door events and the main evening event, I learned much about how businesses are perceiving the effect of AI on their own business and the larger economy.
           </p>
         </div>
       </div>
@@ -66,7 +82,7 @@ function App() {
             London School of Economics and Political Science (LSE)
           </h4>
           <h6 className="content-position-title">
-            Master in Public Administration (MPA), <em>2022–2023</em>
+            Master's in Public Administration (MPA), <em>2022–2023</em>
           </h6>
           <p>
             Over the pandemic, I curated a vision. I knew that while I enjoyed software engineering, it wasn't my only long-term goal. Certainly, I understood that I at least wanted to feel as if I was making a more meaningful impact. I took a relatively significant risk and jumped at a surprising opportunity: a Double Degree MPA/MGA program hosted by the London School of Economics in partnership with the University of Toronto. Though still distant, I saw that I would want my efforts to be materialized into me becoming a sort of policy practitioner either in the public or academic sectors, focusing on tech and innovation policy. In actuality, even with an offer letter in hand, it was quite difficult to uproot everything and move continents. Planning out visa deadlines, finding someone for a lease takeover alongside booking accommodation for the year (without getting to see it in-person in advance) and reorganizing my finances all in just over a month's time was a stressful experience, but I managed to do it all. 
@@ -75,7 +91,7 @@ function App() {
             My stint at LSE allowed me to reforge my existing skills and knowledge, broadening the scope of how I think about and work with data. I am grateful for the time I spent and the people I met while attending, and am glad to have this year of quantitative analysis and policy evaluation skills in my toolkit. The faculty that I learned under were some of the brightest, most passionate, and most inspirational people I have had the pleasure to meet.
           </p>
           <p>
-            Of the numerous opportunities at LSE that I seized the chance at, the one that I want to highlight first is my tenure as Departmental Teaching Committee representative for the School of Public Policy. My job was to liaison with students about program concerns and to attend planning meetings with faculty to address both those concerns and any course changes. Through this process, with a fellow student representative I jointly submitted a proposal for review concerning mental health and diversity, equity, and inclusion (DEI) training. We viewed this as important due to the relative insularity of the School, where faculty and staff alike were largely unaware or simply underequipped for how to deal with students' concerns. Among faculty, our proposal proved popular (as all were interested in more transparent access to existing central resources); while our proposal ended up not being enacted as-written, the School made significant changes to mental health accessibility and DEI training. This proved to be a good thing though, as the changes that were approved were both more numerous and more substantial than the original proposal.
+            Of the numerous opportunities at LSE that I seized the chance at, the one that I want to highlight first is my work as Departmental Teaching Committee representative for the School of Public Policy. My job was to liaison with students about program concerns and to attend planning meetings with faculty to address both those concerns and any course changes. Through this process, with a fellow student representative I jointly submitted a proposal for review concerning mental health and diversity, equity, and inclusion (DEI) training. We viewed this as important due to the relative insularity of the School, where faculty and staff alike were largely unaware or simply underequipped for how to deal with students' concerns. Among faculty, our proposal proved popular (as all were interested in more transparent access to existing central resources); while our proposal ended up not being enacted as-written, the School made significant changes to mental health accessibility and DEI training. This proved to be a good thing though, as the changes that were approved were both more numerous and more substantial than the original proposal.
           </p>
           <p>
             With a team of two other postgraduate students, I participated in the annual Global Public Policy Network (GPPN) competition. While the work that we did on the project was not selected to proceed, I recognized that I had spread myself too thin and redoubled my efforts on other projects.
