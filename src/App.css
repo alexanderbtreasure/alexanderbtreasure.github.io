@@ -8,12 +8,12 @@ header {
 
 header h1 {
   font-size: calc(10px + 8vmin);
-  margin-top: 0;
+  margin: 0;
 }
 
 header h2 {
   font-size: calc(10px + 4vmin);
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .parallax {
@@ -57,7 +57,6 @@ header h2 {
 }
 
 .bg0 {
-  /*Shh... this isn't from Cumberland! Don't tell anyone until I have the chance to go back and grab another picture. ;)*/
   background-image: url("img_cumberland.jpg");
 }
 
