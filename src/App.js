@@ -231,9 +231,12 @@ function App() {
           <strong>and always looking for 맛있는 Korean street food and Italian pasta recommendations.</strong>
         </h3>
         <p className="content-outro-blurb content-outro-subtitle">
-          Feel free to message me if you are looking to chat about research, work, or anything else! 🌌 We can connect on the following platforms: 
+          Feel free to message me if you are looking to chat about research, work, or anything else! 🌌 We can connect at the following places: 
         </p>
         <div className="content-social">
+          <div className="content-social-container">
+            <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-image" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
+          </div>
           <div className="content-social-container">
             <a href="https://github.com/alexanderbtreasure"><img className="content-social-image" src="logos/github-mark.png" alt="GitHub logo"></img></a>
           </div>
@@ -244,7 +247,7 @@ function App() {
       </div>
       <footer className="rights">
         Company logos used according to company standards.<br></br>
-        Other images © Alex Treasure 2023; not to be used or reproduced without permission.<br></br>
+        Other images © Alexander Treasure 2024; not to be used or reproduced without permission.<br></br>
         Code is made available according to the GNU AGPL license.
       </footer>
     </div>
