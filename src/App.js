@@ -235,7 +235,7 @@ function App() {
         </p>
         <div className="content-social">
           <div className="content-social-container">
-            <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-image" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
+            <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-rounded" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
           </div>
           <div className="content-social-container">
             <a href="https://github.com/alexanderbtreasure"><img className="content-social-image" src="logos/github-mark.png" alt="GitHub logo"></img></a>

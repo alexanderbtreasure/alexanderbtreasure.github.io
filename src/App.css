@@ -234,6 +234,17 @@ header h2 {
   transform: scale(1.2);
 }
 
+.content-social-rounded {
+  height: 128px;
+  width: 128px;
+  transition: transform .25s; /* Animation */
+  border-radius: 25px;
+}
+
+.content-social-rounded:hover {
+  transform: scale(1.2);
+}
+
 .content-social-linkedin {
   /* LinkedIn insisting on using the registered mark is kind of insane and breaks the flow of the page.*/
   height: 108px;
