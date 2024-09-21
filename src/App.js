@@ -17,9 +17,27 @@ function App() {
           I am a US-born, currently Canada-based senior software engineer, policy researcher, and data expert, presently focused on researching and recommending policies for sustainable tech growth and emergent technologies.
         </p>
       </div>
+      <div className="parallax bg4">
+        <h1 className="content-location">
+          Ottawa, ON, CA
+        </h1>
+      </div>
+      <div className="background-rotated-panel"></div>
+      <div className="foreground-rotated-panel"></div>
+      <div className="content content-secondary">
+        <div className="content-location-section">
+          <h4>Arkhaio Solutions</h4>
+          <h6 className="content-position-title">
+            Owner and Lead Architect, <em>2024–Present</em>
+          </h6>
+          <p>
+            In an attempt to try another new thing, 
+          </p>
+        </div>
+      </div>
       <div className="parallax bg3">
         <h1 className="content-location">
-          Toronto, CA
+          Toronto, ON, CA
         </h1>
       </div>
       <div className="background-rotated-panel"></div>
@@ -31,7 +49,10 @@ function App() {
               Research Scholar, Northeast Asia/AI (Full-time Grant/Remote), <em>2024–Present</em>
             </h6>
             <p>
-              Following my final term with the Munk School, I accepted an offer with APFC to conduct research on Northeast Asia, particularly in evaluating AI policy in South Korea and Japan. Excited to get started!
+              Following my final term with the Munk School, I accepted an offer with APFC to conduct research on Northeast Asia, particularly in evaluating AI policy in South Korea and Japan.
+            </p>
+            <p>
+              As a fun sort of work, the research teams viewed and reviewed cultural film festivals. I wrote with my co-author Siân Jones on the movie <a href="https://www.asiapacific.ca/publication/japanese-film-festival-2024-sumodo-successors-samurai" className="content-link"><em>SUMODO ～The Successors of Samurai～ (相撲道〜サムライを継ぐ者たち〜)</em></a>, a documentary by filmmaker Eiji Sakata. This was not a writing experience that I was expecting from this role, but it was an interesting one!
             </p>
           <hr className="content-hr"></hr>
           <h4>
@@ -46,13 +67,13 @@ function App() {
             My vision to pursue a career shift into tech policy continued at the University of Toronto. There, I had many opportunities to work on interesting and varied projects. Notably, I worked with a team operating under the umbrella of the Munk School in collaboration with Shopify, on a paper titled <em>Promoting AI Adoption: How the Government of Canada can Help Small and Medium Businesses Bridge the Technology Gap</em>. I also am currently continuing on my major research paper under the advisement of Dr. Daniel Munro titled <em>Online Gaming Addiction Policy Review in South Korea: A Retrospective of the Effects of Article 26 of the Youth Protection Act</em>, which I will be continuing to work on over the summer thanks to a research grant given by the University of Toronto, the Dr. David Chu Scholarship in Asia Pacific Studies.
           </p>
           <p>
-            Over the course of my program, I pursued "The Digital World" and the "Global Policy" emphases. In the process of selecting these, I had already looked at some of the courses that I wanted to take. Primarily, learning in-depth about the work of the Citizen Lab was a focus for me, as well as understanding more about the interconnectedness of policies and politics at the global level. Under the Innovation track, I took a capstone class under Dr. Daniel Munro and ended up partnering with Shopify for our group project. Serving as the project manager, I helped coordinate my group's efforts and together we authored a research project titled: <a href="/docs/2024_Promoting_AI_Adoption_in_Canada.pdf" target="_blank" className="content-link">Promoting AI Adoption: How the Government of Canada can Help Small and Medium Businesses Bridge the Technology Gap</a>.
+            Over the course of my program, I pursued "The Digital World" and the "Global Policy" emphases. In the process of selecting these, I had already looked at some of the courses that I wanted to take. Primarily, learning in-depth about the work of the Citizen Lab was a focus for me, as well as understanding more about the interconnectedness of policies and politics at the global level. Under the Innovation track, I took a capstone class under Dr. Daniel Munro and ended up partnering with Shopify for our group project. Serving as the project manager, I helped coordinate my group's efforts and together we authored a research project titled: <a href="/docs/2024_Promoting_AI_Adoption_in_Canada.pdf" target="_blank" className="content-link"><em>Promoting AI Adoption: How the Government of Canada can Help Small and Medium Businesses Bridge the Technology Gap</em></a>.
           </p>
           <p>
-            My Collaborative Master's Specialization may have been the most useful and interesting part of my course. It certainly surprised me the most; I ended up taking courses in everything from area studies, to international relations, to anthropology. My original plan of understanding global affairs from both a Western and an Eastern perspective was a bit too ambitious, but this additional program thoroughly rounded out my experience with Toronto.
+            My Collaborative Master's Specialization may have been the most useful and interesting part of my course. It certainly surprised me the most; I ended up taking courses in everything from area studies, to international relations, to anthropology. My original plan of understanding global affairs from both a Western and an Eastern perspective was a bit too ambitious for a single year, but this additional program thoroughly rounded out my experience with Toronto.
           </p>
           <p>
-            As I was taking six classes in both my terms at the university, I did not have a ton of chances to get involved in extracurriculars. However, I was able to get involved in a few ways. I later had the chance to serve as one of the Rapporteurs at the Next Generation China Scholars Conference, a conference organized by the Munk School bringing in China scholars from several universities to discuss the current climate of Chinese-North American relations and higher education concerning China. I volunteered to help out with The Future of Money 2024, also organized by the Munk School. Between both the morning closed-door events and the main evening event, I learned much about how businesses are perceiving the effect of AI on their own business and the larger economy.
+            As I was taking six classes in both my terms at the university, I did not have a ton of chances to get involved in extracurriculars. However, I was able to get involved in a few ways. I later had the chance to serve as one of the Rapporteurs at the Next Generation China Scholars Conference, a conference organized by the Munk School bringing in China scholars from several universities to discuss the current climate of Chinese-North American relations and higher education concerning China. I later volunteered to help with The Future of Money 2024, also organized by the Munk School. Between both the morning closed-door events and the main evening event, I learned much about how businesses are perceiving the effect of AI on their own business and the larger economy. I finally served as a student ambassador for the program.
           </p>
         </div>
       </div>
@@ -235,18 +256,21 @@ function App() {
         </p>
         <div className="content-social">
           <div className="content-social-container">
-            <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-rounded" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
-          </div>
-          <div className="content-social-container">
             <a href="https://github.com/alexanderbtreasure"><img className="content-social-image" src="logos/github-mark.png" alt="GitHub logo"></img></a>
           </div>
           <div className="content-social-container">
             <a href="https://www.linkedin.com/in/alextreasure/"><img className="content-social-linkedin" src="logos/LI-In-Bug.png" alt="LinkedIn logo"></img></a>
           </div>
+          <div className="content-social-container">
+            <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-rounded" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
+          </div>
+          <div className="content-social-container">
+            <a href="https://arkha.io/"><img className="content-social-rounded" src="logos/arkhaio_logo.png" alt="Arkhaio Solutions logo"></img></a>
+          </div>
         </div>
       </div>
       <footer className="rights">
-        Company logos used according to company standards.<br></br>
+        Company logos used according to company branding standards.<br></br>
         Other images © Alexander Treasure 2024; not to be used or reproduced without permission.<br></br>
         Code is made available according to the GNU AGPL license.
       </footer>
