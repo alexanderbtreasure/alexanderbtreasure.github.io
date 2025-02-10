@@ -17,24 +17,6 @@ function App() {
           I am a US-born, currently Canada-based senior software engineer, policy researcher, and data expert, presently focused on researching and recommending policies for sustainable tech growth and emergent technologies.
         </p>
       </div>
-      <div className="parallax bg4" style="display: none">
-        <h1 className="content-location">
-          Ottawa, ON, CA
-        </h1>
-      </div>
-      <div className="background-rotated-panel" style="display: none"></div>
-      <div className="foreground-rotated-panel" style="display: none"></div>
-      <div className="content content-secondary" style="display: none">
-        <div className="content-location-section">
-          <h4>Arkhaio Solutions</h4>
-          <h6 className="content-position-title">
-            Owner and Lead Architect, <em>2024–Present</em>
-          </h6>
-          <p>
-            In an attempt to try another new thing, I started up a software consulting company. More to come on this in the new year!
-          </p>
-        </div>
-      </div>
       <div className="parallax bg3">
         <h1 className="content-location">
           Toronto, ON, CA
