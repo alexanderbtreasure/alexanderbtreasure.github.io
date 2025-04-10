@@ -264,6 +264,16 @@ header h2 {
   transform: translateY(-50%) scale(1.2);
 }
 
+.content-social-bluesky {
+  height: 128px;
+  width: 112px;
+  transition: transform .25s; /* Animation */
+}
+
+.content-social-bluesky:hover {
+  transform: scale(1.2);
+}
+
 .rights {
   text-align: center;
   padding-bottom: 2%;

@@ -250,6 +250,9 @@ function App() {
             <a href="https://www.linkedin.com/in/alextreasure/"><img className="content-social-linkedin" src="logos/LI-In-Bug.png" alt="LinkedIn logo"></img></a>
           </div>
           <div className="content-social-container">
+            <a href="https://bsky.app/profile/alexanderbtreasure.bsky.social"><img className="content-social-linkedin" src="logos/bluesky-butterfly.png" alt="Bluesky logo"></img></a>
+          </div>
+          <div className="content-social-container">
             <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-rounded" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
           </div>
           <div className="content-social-container">
