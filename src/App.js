@@ -14,8 +14,32 @@ function App() {
           My journey
         </h2>
         <p className="content-summary">
-          I am a US-born, currently Canada-based senior software engineer, policy researcher, and data expert, presently focused on researching and recommending policies for sustainable tech growth and emergent technologies.
+          I am a US-born policy researcher, data expert, and senior software engineer, presently focused on researching, recommending policies, and creating solutions for sustainable tech growth and emergent technologies. I write a newsletter called "<a href="https://blog.binarydiplomacy.io/" className="content-link">Binary Diplomacy</a>", go check it out!
         </p>
+      </div>
+      <div className="parallax bg4">
+        <h1 className="content-location">
+          Ottawa, ON, CA
+        </h1>
+      </div>
+      <div className="background-rotated-panel"></div>
+      <div className="foreground-rotated-panel"></div>
+      <div className="content content-secondary">
+        <div className="content-location-section">
+          <h4>Arkhaio Solutions, Ltd.</h4>
+          <h6 className="content-position-title">
+            Founder | CEO (Part-time/Remote), <em>2024–Present</em>
+          </h6>
+          <p>
+            To continue my learning, I started up a consulting company. Despite founding in 2024, I only started pushing on this in earnest in late 2025.
+          </p>
+          <p>
+            The job market is a bit... weird right now, and I know many very qualified people who are unemployed/underemployed in the tech and policy worlds. Rather than complain about the problem, I thought that maybe I could help be part of the solution.
+          </p>
+          <p>
+            The company is currently looking for consulting contracts in software and policy. Information on leads is welcome.
+          </p>
+        </div>
       </div>
       <div className="parallax bg3">
         <h1 className="content-location">
@@ -26,22 +50,30 @@ function App() {
       <div className="foreground-rotated-panel"></div>
       <div className="content content-secondary">
         <div className="content-location-section">
+          <h4>Binary Diplomacy</h4>
+          <h6 className="content-position-title">
+            Founder | Lead Writer (Part-time/Remote)
+          </h6>
+          <p>
+            As I worked at APFC, I realized two things about my writing: that the scope of what I wanted to write was broad, and that I needed more experience writing, drafting, and editing. At the same time, I saw a gap in technology and policy literature—I find that most contemporary literature is focused on the technology realm without regards to policy, or is otherwise too dense to penetrate if someone would be unfamiliar with the space. Thus, out of a gap in the writing market and a desire to improve my writing, <a href="https://blog.binarydiplomacy.io/" className="content-link">Binary Diplomacy</a> was born.
+          </p>
+          <p>
+            As a side project, I kicked off a crowdsourcing platform for information related to the Epstein case. You can go check out how it currently looks here: <a href="https://epsteintimeline.org" className="content-link">The Epstein Timeline</a>.
+          </p>
+          <hr className="content-hr"></hr>
           <h4>Asia Pacific Foundation of Canada</h4>
-            <h6 className="content-position-title">
-              Research Scholar, Northeast Asia/AI (Full-time Grant/Remote), <em>2024</em>
-            </h6>
-            <p>
-              Following my final term with the Munk School, I accepted an offer with APFC to conduct research on Northeast Asia, particularly in evaluating AI policy in South Korea and Japan.
-            </p>
-            <p>
-              I helped plan a series of "explainer" articles on the state of governance in Asian countries, starting off with "The Current State of Artificial Intelligence (AI) in South Korea." Aiming for publication soon!
-            </p>
-            <p>
-              As a fun sort of work, the research teams viewed and reviewed cultural film festivals. I wrote with my co-author Siân Jones on the movie <a href="https://www.asiapacific.ca/publication/japanese-film-festival-2024-sumodo-successors-samurai" className="content-link"><em>SUMODO ～The Successors of Samurai～ (相撲道〜サムライを継ぐ者たち〜)</em></a>, a documentary by filmmaker Eiji Sakata. This was not a writing experience that I was expecting from this role, but it was an interesting one!
-            </p>
-            <p>
-              I finally had the opportunity to co-produce, co-host, and co-write the first three episodes of <a href="https://www.asiapacific.ca/podcast/kakehashi" className="content-link"><em>Kakehashi Conversations</em></a>, an upcoming podcast series briefly interviewing public figures ranging from Olympians to civil servants. These individuals all went on a cultural exchange trip to Japan as part of the Kakehashi program, a Japanese state-funded program administered by APFC, in a recent year and as part of a small cohort. Here, they share their experiences with the program, and what they've been up to since.
-            </p>
+          <h6 className="content-position-title">
+            Research Scholar, Northeast Asia/AI (Full-time Grant/Remote), <em>2024</em>
+          </h6>
+          <p>
+            Following my final term with the Munk School, I accepted an offer with APFC to conduct research on Northeast Asia, particularly in evaluating AI policy in South Korea and Japan.
+          </p>
+          <p>
+            As a fun sort of work, the research teams viewed and reviewed cultural film festivals. I wrote with my co-author Siân Jones on the movie <a href="https://www.asiapacific.ca/publication/japanese-film-festival-2024-sumodo-successors-samurai" className="content-link"><em>SUMODO ～The Successors of Samurai～ (相撲道〜サムライを継ぐ者たち〜)</em></a>, a documentary by filmmaker Eiji Sakata. This was not a writing experience that I was expecting from this role, but it was an interesting one!
+          </p>
+          <p>
+            I finally had the opportunity to co-produce, co-host, and co-write the first three episodes of <a href="https://www.asiapacific.ca/podcast/kakehashi" className="content-link"><em>Kakehashi Conversations</em></a>, a podcast series briefly interviewing public figures ranging from Olympians to civil servants. These individuals all went on a cultural exchange trip to Japan as part of the Kakehashi program, a Japanese state-funded program administered by APFC, in a recent year and as part of a small cohort. Here, they share their experiences with the program, and what they've been up to since.
+          </p>
           <hr className="content-hr"></hr>
           <h4>
             University of Toronto (UoT)
