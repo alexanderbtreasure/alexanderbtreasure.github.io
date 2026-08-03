@@ -38,7 +38,19 @@ header h2 {
   .parallax {
     background-attachment: scroll;
   }
-} 
+}
+
+/* The hero is the one panel whose bottom edge has to line up with what the
+   visitor can actually see, because the scroll prompt is pinned to it.
+   .parallax's 100vh above is the *large* viewport on mobile — the height the
+   page gets once the URL bar has collapsed — so its bottom edge starts out
+   below the fold. svh is the small (URL bar showing) viewport, i.e. the height
+   that is visible on load. Browsers without svh drop this and keep the 100vh. */
+header.parallax {
+  min-height: 100svh;
+  /* Positioning context for .header-prompt-scroll. */
+  position: relative;
+}
 
 /* Backgrounds ship in two tiers — -sm (1280w) as the mobile-first default and
    -lg (2560w) for wider viewports, applied in the media query at the bottom of
@@ -207,10 +219,21 @@ header h2 {
   justify-content: center;
 }
 
-.content-prompt-scroll {
+/* Pinned to the hero rather than laid out in flow. The distance from the bottom
+   edge is the only thing that has to stay constant here, and a bottom offset is
+   the one way to state that directly — it was previously reached for with a
+   margin-top of -35% from inside .content, but percentage margins resolve
+   against the containing block's *width*, so viewport width ended up setting a
+   vertical position. The gap tracks viewport height instead, bounded so it
+   stays sane on both a landscape phone and a 4K monitor. */
+.header-prompt-scroll {
   font-size: calc(10px + 8vmin);
-  margin-top: -35%;
-  padding-top: 0;
+  /* Trim the glyph's leading so the gap below it is the offset, nothing more. */
+  line-height: 1;
+  position: absolute;
+  bottom: clamp(1rem, 3vh, 3rem);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .content-secondary {

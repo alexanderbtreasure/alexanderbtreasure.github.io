@@ -7,9 +7,9 @@ function App() {
       <header className="parallax bgportrait">
         <h2><em>Hey, I'm</em></h2><br></br>
         <h1><strong>Alex Treasure</strong></h1>
+        <div className="header-prompt-scroll" aria-hidden="true">⇓</div>
       </header>
       <div className="content">
-        <h1 className="content-prompt-scroll">⇓</h1>
         <h2 className="content-title">
           My journey
         </h2>
