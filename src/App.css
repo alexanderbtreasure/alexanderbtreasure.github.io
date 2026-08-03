@@ -40,32 +40,120 @@ header h2 {
   }
 } 
 
-.bgportrait {
-  background-image: url("img_intro.jpg");
-}
+/* Backgrounds ship in two tiers — -sm (1280w) as the mobile-first default and
+   -lg (2560w) for wider viewports, applied in the media query at the bottom of
+   this block. Each tier declares a plain url() first and an image-set() second:
+   browsers that understand image-set() take the WebP, and everything else falls
+   back to the JPEG declaration above it. Masters live in ./assets/backgrounds/
+   originals/ and are not referenced here, so webpack never bundles them. */
+
+/* .bgportrait is deliberately NOT styled here — its background lives in a
+   <style> block in public/index.html, next to the preload that fetches it.
+   Reason: this is a client-rendered app, so no .bgportrait element exists
+   until the JS bundle has booted, which means a background declared in this
+   file can't begin downloading until then. The preload sidesteps that, and it
+   needs a build-stable URL, so that one photo sits in public/backgrounds/
+   rather than going through the hashed src/ pipeline. Change it in both
+   places if you ever swap the hero photo. */
 
 .bg4 {
-  background-image: url("img_ottawa.jpg");
+  background-image: url("assets/backgrounds/img_ottawa-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_ottawa-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_ottawa-sm.jpg") type("image/jpeg")
+  );
 }
 
 .bg3 {
-  background-image: url("img_toronto.jpg");
+  background-image: url("assets/backgrounds/img_toronto-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_toronto-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_toronto-sm.jpg") type("image/jpeg")
+  );
 }
 
 .bg2 {
-  background-image: url("img_london.jpg");
+  background-image: url("assets/backgrounds/img_london-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_london-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_london-sm.jpg") type("image/jpeg")
+  );
 }
 
 .bg1 {
-  background-image: url("img_washington.jpg");
+  background-image: url("assets/backgrounds/img_washington-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_washington-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_washington-sm.jpg") type("image/jpeg")
+  );
 }
 
 .bg0 {
-  background-image: url("img_cumberland.jpg");
+  background-image: url("assets/backgrounds/img_cumberland-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_cumberland-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_cumberland-sm.jpg") type("image/jpeg")
+  );
 }
 
 .bgcontact {
-  background-image: url("img_outro.jpg");
+  background-image: url("assets/backgrounds/img_outro-sm.jpg");
+  background-image: image-set(
+    url("assets/backgrounds/img_outro-sm.webp") type("image/webp"),
+    url("assets/backgrounds/img_outro-sm.jpg") type("image/jpeg")
+  );
+}
+
+@media only screen and (min-width: 1281px) {
+  /* .bgportrait's -lg tier is in public/index.html too — see note above. */
+
+  .bg4 {
+    background-image: url("assets/backgrounds/img_ottawa-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_ottawa-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_ottawa-lg.jpg") type("image/jpeg")
+    );
+  }
+
+  .bg3 {
+    background-image: url("assets/backgrounds/img_toronto-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_toronto-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_toronto-lg.jpg") type("image/jpeg")
+    );
+  }
+
+  .bg2 {
+    background-image: url("assets/backgrounds/img_london-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_london-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_london-lg.jpg") type("image/jpeg")
+    );
+  }
+
+  .bg1 {
+    background-image: url("assets/backgrounds/img_washington-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_washington-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_washington-lg.jpg") type("image/jpeg")
+    );
+  }
+
+  .bg0 {
+    background-image: url("assets/backgrounds/img_cumberland-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_cumberland-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_cumberland-lg.jpg") type("image/jpeg")
+    );
+  }
+
+  .bgcontact {
+    background-image: url("assets/backgrounds/img_outro-lg.jpg");
+    background-image: image-set(
+      url("assets/backgrounds/img_outro-lg.webp") type("image/webp"),
+      url("assets/backgrounds/img_outro-lg.jpg") type("image/jpeg")
+    );
+  }
 }
 
 /* -6 deg and -3deg transforms work for 1920w */
@@ -265,8 +353,8 @@ header h2 {
 }
 
 .content-social-bluesky {
-  height: 128px;
-  width: 112px;
+  height: 112px;
+  width: 128px;
   transition: transform .25s; /* Animation */
 }
 

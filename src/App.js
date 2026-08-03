@@ -255,7 +255,7 @@ function App() {
             <span className="content-position-subtitle"><em>Summa Cum Laude (4.0/4.0)</em></span>
           </h6>
           <p>
-            I graduated high school at 15, and was initially a bit lost as to what path I wanted to take in life. Ultimately, the choice came down to what I wanted to actively pursue at the moment, since I had (and still have) a genuine interest in nearly every subject. For my young age, this was a daunting task, but I landed on computer science and haven't looked back.
+            I graduated high school at 15, and was initially a bit lost as to what path I wanted to take in life. Ultimately, the choice came down to what I wanted to actively pursue at the moment, since I had (and still have) a genuine interest in nearly every subject. For my young age, this was a daunting task, but I landed on computer science and haven't looked back (despite yes, pivoting later).
           </p>
           <p>
             To afford to stay in classes, I cooked and washed dishes at a local restaurant part-time. I took this first degree rather slowly then, pacing myself and letting my budget adjust. Through this experience, I learned how to juggle work and studies and how to prepare myself for adulthood.
@@ -282,7 +282,10 @@ function App() {
             <a href="https://www.linkedin.com/in/alextreasure/"><img className="content-social-linkedin" src="logos/LI-In-Bug.png" alt="LinkedIn logo"></img></a>
           </div>
           <div className="content-social-container">
-            <a href="https://bsky.app/profile/alexanderbtreasure.bsky.social"><img className="content-social-linkedin" src="logos/bluesky-butterfly.png" alt="Bluesky logo"></img></a>
+            <a href="https://bsky.app/profile/alexanderbtreasure.bsky.social"><img className="content-social-bluesky" src="logos/bluesky-butterfly.png" alt="Bluesky logo"></img></a>
+          </div>
+          <div className="content-social-container">
+            <a href="https://ko-fi.com/alexanderbtreasure"><img className="content-social-rounded" src="logos/kofi_symbol.png" alt="Ko-fi logo"></img></a>
           </div>
           <div className="content-social-container">
             <a href="https://binarydiplomacy.substack.com/welcome"><img className="content-social-rounded" src="logos/bd_logo.png" alt="Binary Diplomacy logo"></img></a>
@@ -294,7 +297,7 @@ function App() {
       </div>
       <footer className="rights">
         Company logos used according to company branding standards.<br></br>
-        Other images © Alexander Treasure 2024; not to be used or reproduced without permission.<br></br>
+        Other images © Alexander Treasure 2026; not to be used or reproduced without permission.<br></br>
         Code is made available according to the GNU AGPL license.
       </footer>
     </div>
